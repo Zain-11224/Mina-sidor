@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+header,nav,main,footer{
+    background: darkblue;
+    margin: 8px;
+    color: white;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+       "Heat      Heat usaul usual"
+       "inside rififi rififi job"
+    ;
+}
+
+#Heat{
+    grid-area: heat;
+    background: url(images/heat.jpg);
+    background-size: cover;
+}
+
+#job{
+    grid-area: job;
+    background: url(images/mega.jpg.jpg);
+}
+
+#usual{
+    grid-area: usual;
+
+}
+
+#bank{
+    grid-area: bank;
+}

@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+header{
+    color: white;
+    font-style: italic;
+    background: red;
+}
+
+body{
+    background-color:orange ;
+}
+
+h1{
+    font-style: italic;
+}
+
+img{
+   width: 500px;
+   text-align: center;
+}
+
+.content{
+    padding: 20px;
+}
+
+footer{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    padding: 45px;
+    
+}
+@media (min-width: 600px){
+    .recept{
+        display: flex;
+        gap: 20px;
+    }
+
+    .ingredienser,
+    .instruktioner{
+        flex:1;
+    }
+}

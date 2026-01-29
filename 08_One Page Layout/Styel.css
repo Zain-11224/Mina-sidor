@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background: cover;
+    height: 400vh;
+}
+
+
+header {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px 20px;
+    overflow: hidden; 
+    position: fixed;
+    width: 195vh;
+}
+
+
+header p {
+    font-size: 1.2em;
+    font-weight: bold;
+    float: left; 
+    margin: 5px 0;
+}
+
+
+nav {
+    float: right; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px; 
+    padding: 5px 0;
+    line-height: 2; 
+    display: inline-block;
+    gap: 50%;
+}
+
+nav a:hover {
+    color: #00bcd4; 
+}
+
+
+
+#webdev {
+    
+    background-image: url(pexels-kevin-ku-577585.jpg);
+    background-size: cover; 
+    background-position: center;
+    height: 550px;
+    text-align: center;
+    padding-top: 150px; 
+}
+
+
+.textContainer {
+    color: #fff;
+    width: 60%;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+
+.B {
+    color: #00bcd4;
+}
+
+
+.textContainer p {
+    font-size: 1em;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#lorem{
+    text-align: center;
+    justify-content: center;
+}
+
+#lorem{
+margin: 20em 15em 20em 15em;
+text-align: center;
+}
+
+#blog{
+    margin: 30em 20em 30em 20em;
+   text-align: center;
+ }
+
+ .Skibdi{
+    color: turquoise;
+ }
+
+ form label {
+    display: block;
+    margin-top: 10px;
+}
+
+
+footer{
+    background-color: #555;
+    color: #eee;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer h3{
+    margin: 0 0 20px 0;
+    letter-spacing: 6px;
+
+}
+
+footer p{
+    margin: 5px 0px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "a b c d e f"
+    "g h j klar"
+    ;
+}
+
+#a{
+    grid-area: a;
+    background-image: url(images/a.jpg);
+    background-size: cover;
+    background-position:center;
+
+}
+
+
+   
+    
